@@ -2,3 +2,18 @@ x circuit = NOT gate sorta
 [0 1] [1] = [0]
 [1 0] [0] = [1]
 mirror matrix
+
+
+presentation ideas:
+- what is a qubit
+- how do you change qubit states
+- what is entanglement
+- how can you use entanglement
+- observation causes value weirdness
+- explanation of gates
+- matrix form vs other thing form
+- visualizations
+- bernstein vazirani algo
+- tie into encryption
+- private key public key issues
+- new ways of encrypting
