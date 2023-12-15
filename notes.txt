@@ -1,0 +1,4 @@
+x circuit = NOT gate sorta
+[0 1] [1] = [0]
+[1 0] [0] = [1]
+mirror matrix
