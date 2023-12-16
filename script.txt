@@ -1,0 +1,59 @@
+Quantum computing has been a hot topic in computer science for the past couple of decades.
+Many people speculate that the invention of the Quantum Computer will change the paradigm of cybersecurity and how we approach problems, but what exactly is a Quantum Computer and how does it differ from a traditional computer?
+
+Traditional computers use bits in order to store and transfer information.
+A bit can be either on or off, 1 or 0.
+Quantum computers contain traditional bits like any other computer, but they also use a new type of bit: the quantum bit, or qubit.
+
+Quantum bits are encoded into the electrons of an atom instead of in a copper wire.
+Qubits make use of a property of electrons called electron spin.
+Electron spin describes how an electron is spinning around it's axis.
+Without going into much detail, the electron spin can be described in terms of it's orientation.
+The electron is typically either spinning up or spinning down.
+
+In order to encode data into these electrons, we must be able to control their state.
+Due to the large amount of energy an electron has, the spin direction is constantly changing.
+To solve this, Quantum Computers are cooled down to a temperature such that the electron slows down and keeps its spin state consistently at the down state.
+When the qubit receives enough energy, it will change to the spin up state.
+To flip a qubit up or down, quantum computers utilize a strong magnetic field to apply energy to the electron.  
+If we need the qubit to be in the spin down state, we stop applying energy to the electron and it will naturally swap states.
+Although this allows us to simulate a typical bit with a 1 or 0 state, this is no different from using a traditional bit.
+So what makes quantum bits special?
+
+Quantum entanglement is the quantum bit's biggest strength
+Quantum entanglement describes a phenomenon in which the quantum state of two particles cannot be described independently of the state of the other.
+In essence, the two particles share quantum information, no matter how far the two particles are away from each other. 
+The quantum computer stores data in the quantum information of particles, so the entanglement of two qubits allows us to interact with data in new ways.
+
+In order to understand how to entangle qubits or what their uses are, we must first understand how to build a program using qubits.
+To build quantum programs, we can use a python-based library called Qiskit.
+Qiskit, owned by IBM, enables programmers to create whats called Quantum circuits, which then can be run on either simulations of a quantum computer or physical quantum computers.
+The quantum circuit can be said to be the quantum part of your program; the thing that is actually run on the quantum computer.
+
+Let me show you a demonstration of a simple quantum circuit.
+We will be building a simple quantum application using qiskit and running it on IBM's quantum assembly simulator.
+The circuit that we will be building is this circuit which simply demonstrates some of the capabilities of the quantum computer.
+This circuit uses a Hadamard gates and a Controlled X gate in order to create whats called a Bell state.
+A Bell State is the simplest form of quantum entanglement and can be demonstrated in a very straightforward way.
+
+[code demonstration]
+
+[analyze data]
+
+
+I chose to implement the Bernstein Vazirani Algorithm for this project.
+The Bernstein Vazirani Algorithm aims to solve the following question:
+Say you have a function that asks you to guess a secret number that is N bits long.
+You input your guess and it will tell you if your guess was right or wrong.
+For an N-bit long number, a classical computer can solve this question in N tries with some creative optimization.
+Using the Bernstein Vazirani Algorithm, quantum computers can solve this in 1 single try.
+The quantum computer achieves this through quantum entanglement.
+In order to solve the problem, all we need to do is entangle each bit of the secret number with a quantum bit and read the output.
+
+So what does this all mean?
+Using quantum entanglement, we can change the way we encrypt and save data.
+Private keys and public keys will be adapted to use quantum technology.
+We can create quantum entangled keys to be resistant to typical cyber attacks.
+Old systems will be rendered vulnerable to attacks using modified versions of the Bernstein Vazirani Algorithm.
+However, the future in which a quantum computer is in everyone's pocket is still far away.
+Much research will be done into this technology, and developers who are eager to stay ahead of the curve will be valuable.
